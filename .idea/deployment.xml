@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="lemon" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="lemon">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Documents/Work/Libraries/LinkedList_C" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
