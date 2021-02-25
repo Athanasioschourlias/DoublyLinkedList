@@ -19,14 +19,25 @@ typedef struct Node {
 
 } Node;
 
+typedef struct listPointers {
+
+    Node* head_ref;
+    Node* tail_ref;
+
+    int* size;
+
+} listPointers;
+
 /*Because we are creating this liked list so that can work with generic data types we can not implement a print function*/
 
-void put(struct Node** head_ref,struct Node**  tail_ref, void *new_data, size_t data_size,int* size);
+void put(void *new_data, size_t data_size, struct listPointers** list_ref);
 
-void putIn(struct Node** head_ref,struct Node**  tail_ref, void *new_data, size_t data_size,int pos,int* size);
+void putIn(void *new_data, size_t data_size,int pos, struct listPointers** list_ref);
 
-void removeNode(struct Node** head_ref,struct Node**  tail_ref, int *size);
+void removeNode(struct listPointers** list_ref);
 
-void  removeNodeFrom(struct Node** head_ref,struct Node**  tail_ref, int pos, int *size);
+void  removeNodeFrom(int pos, struct listPointers** list_ref);
+
+listPointers *createList();
 
 #endif //LINKEDLIST_C_DOUBLYLINKEDLIST_H
