@@ -68,10 +68,10 @@ RM = /home/thanos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/thanos_server/Documents/Work/Libraries/LinkedList_C
+CMAKE_SOURCE_DIR = /mnt/thanos_server/Documents/Work/Libraries/DoublyLinkedList
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/thanos_server/Documents/Work/Libraries/LinkedList_C/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/thanos_server/Documents/Work/Libraries/DoublyLinkedList/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/thanos_server/Documents/Work/Libraries/LinkedList_C/cmake-build-debug/CMakeFiles /mnt/thanos_server/Documents/Work/Libraries/LinkedList_C/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/thanos_server/Documents/Work/Libraries/DoublyLinkedList/cmake-build-debug/CMakeFiles /mnt/thanos_server/Documents/Work/Libraries/DoublyLinkedList/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/thanos_server/Documents/Work/Libraries/LinkedList_C/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/thanos_server/Documents/Work/Libraries/DoublyLinkedList/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LinkedList_C
+# Target rules for targets named DoublyLinkedList
 
 # Build rule for target.
-LinkedList_C: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkedList_C
-.PHONY : LinkedList_C
+DoublyLinkedList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DoublyLinkedList
+.PHONY : DoublyLinkedList
 
 # fast build rule for target.
-LinkedList_C/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_C.dir/build.make CMakeFiles/LinkedList_C.dir/build
-.PHONY : LinkedList_C/fast
+DoublyLinkedList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/build
+.PHONY : DoublyLinkedList/fast
 
 DoublyLinkedList.o: DoublyLinkedList.c.o
 
@@ -149,7 +149,7 @@ DoublyLinkedList.o: DoublyLinkedList.c.o
 
 # target to build an object file
 DoublyLinkedList.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_C.dir/build.make CMakeFiles/LinkedList_C.dir/DoublyLinkedList.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList.c.o
 .PHONY : DoublyLinkedList.c.o
 
 DoublyLinkedList.i: DoublyLinkedList.c.i
@@ -158,7 +158,7 @@ DoublyLinkedList.i: DoublyLinkedList.c.i
 
 # target to preprocess a source file
 DoublyLinkedList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_C.dir/build.make CMakeFiles/LinkedList_C.dir/DoublyLinkedList.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList.c.i
 .PHONY : DoublyLinkedList.c.i
 
 DoublyLinkedList.s: DoublyLinkedList.c.s
@@ -167,7 +167,7 @@ DoublyLinkedList.s: DoublyLinkedList.c.s
 
 # target to generate assembly for a file
 DoublyLinkedList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_C.dir/build.make CMakeFiles/LinkedList_C.dir/DoublyLinkedList.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList.c.s
 .PHONY : DoublyLinkedList.c.s
 
 # Help Target
@@ -178,7 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... LinkedList_C"
+	@echo "... DoublyLinkedList"
 	@echo "... DoublyLinkedList.o"
 	@echo "... DoublyLinkedList.i"
 	@echo "... DoublyLinkedList.s"

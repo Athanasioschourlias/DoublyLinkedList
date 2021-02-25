@@ -64,16 +64,16 @@ RM = /home/thanos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/thanos_server/Documents/Work/Libraries/LinkedList_C
+CMAKE_SOURCE_DIR = /mnt/thanos_server/Documents/Work/Libraries/DoublyLinkedList
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/thanos_server/Documents/Work/Libraries/LinkedList_C/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/thanos_server/Documents/Work/Libraries/DoublyLinkedList/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/LinkedList_C.dir/all
+all: CMakeFiles/DoublyLinkedList.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/LinkedList_C.dir/clean
+clean: CMakeFiles/DoublyLinkedList.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/LinkedList_C.dir
+# Target rules for target CMakeFiles/DoublyLinkedList.dir
 
 # All Build rule for target.
-CMakeFiles/LinkedList_C.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_C.dir/build.make CMakeFiles/LinkedList_C.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_C.dir/build.make CMakeFiles/LinkedList_C.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/thanos_server/Documents/Work/Libraries/LinkedList_C/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target LinkedList_C"
-.PHONY : CMakeFiles/LinkedList_C.dir/all
+CMakeFiles/DoublyLinkedList.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/thanos_server/Documents/Work/Libraries/DoublyLinkedList/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target DoublyLinkedList"
+.PHONY : CMakeFiles/DoublyLinkedList.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/LinkedList_C.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/thanos_server/Documents/Work/Libraries/LinkedList_C/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LinkedList_C.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/thanos_server/Documents/Work/Libraries/LinkedList_C/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/LinkedList_C.dir/rule
+CMakeFiles/DoublyLinkedList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/thanos_server/Documents/Work/Libraries/DoublyLinkedList/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DoublyLinkedList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/thanos_server/Documents/Work/Libraries/DoublyLinkedList/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/DoublyLinkedList.dir/rule
 
 # Convenience name for target.
-LinkedList_C: CMakeFiles/LinkedList_C.dir/rule
+DoublyLinkedList: CMakeFiles/DoublyLinkedList.dir/rule
 
-.PHONY : LinkedList_C
+.PHONY : DoublyLinkedList
 
 # clean rule for target.
-CMakeFiles/LinkedList_C.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_C.dir/build.make CMakeFiles/LinkedList_C.dir/clean
-.PHONY : CMakeFiles/LinkedList_C.dir/clean
+CMakeFiles/DoublyLinkedList.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/clean
+.PHONY : CMakeFiles/DoublyLinkedList.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

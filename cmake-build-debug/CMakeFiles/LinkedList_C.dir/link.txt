@@ -1,2 +1,0 @@
-/usr/bin/ar qc libLinkedList_C.a  CMakeFiles/LinkedList_C.dir/DoublyLinkedList.c.o
-/usr/bin/ranlib libLinkedList_C.a
